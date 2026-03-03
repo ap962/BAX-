@@ -1,203 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Bax AI – pump.fun style</title>
+<title>Bax AI – Community Driven Future Rewards Token</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 body{
     margin:0;
-    font-family:Arial,Helvetica,sans-serif;
-    background:#0b0b0f;
-    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#0b0f1a;
+    color:#ffffff;
 }
-
 header{
-    background:#0f1118;
-    padding:12px 20px;
+    padding:20px 40px;
     display:flex;
     justify-content:space-between;
     align-items:center;
+    background:#0f1629;
 }
-
 .logo{
+    font-size:22px;
     font-weight:bold;
-    font-size:20px;
     color:#00ffcc;
 }
-
-button{
-    background:#00ffcc;
-    border:none;
-    padding:8px 14px;
-    border-radius:6px;
-    cursor:pointer;
-    font-weight:bold;
-}
-
-.main{
-    max-width:1100px;
-    margin:auto;
-    padding:20px;
-}
-
 .hero{
-    background:#121421;
-    border-radius:12px;
+    padding:80px 20px;
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+}
+.hero h1{
+    font-size:42px;
+    margin-bottom:20px;
+}
+.hero p{
+    font-size:18px;
+    color:#cfcfcf;
+    line-height:1.6;
+}
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    padding:60px 20px;
+    max-width:1000px;
+    margin:auto;
+}
+.card{
+    background:#111a33;
     padding:25px;
+    border-radius:12px;
     text-align:center;
 }
-
-.hero h1{
-    margin-bottom:10px;
-}
-
-.hero p{
-    color:#bbb;
-    line-height:1.5;
-}
-
-.create-box{
-    margin-top:20px;
-    background:#0f1118;
-    padding:20px;
-    border-radius:10px;
-}
-
-input{
-    width:100%;
-    padding:10px;
-    margin-top:8px;
-    border-radius:6px;
-    border:none;
-    outline:none;
-}
-
-.board{
-    margin-top:25px;
-}
-
-.table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:10px;
-}
-
-.table th, .table td{
-    padding:10px;
-    text-align:left;
-    border-bottom:1px solid #222;
-    font-size:14px;
-}
-
-.buybox{
-    margin-top:25px;
-    background:#121421;
-    padding:20px;
-    border-radius:10px;
-}
-
-.badge{
-    background:#1d2138;
-    padding:4px 8px;
-    border-radius:6px;
-    font-size:12px;
+.card h3{
     color:#00ffcc;
+}
+footer{
+    text-align:center;
+    padding:20px;
+    background:#0f1629;
+    color:#aaa;
+}
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 28px;
+    background:#00ffcc;
+    color:#000;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
 }
 </style>
 </head>
+
 <body>
 
 <header>
     <div class="logo">Bax AI</div>
-    <button>Connect Wallet</button>
 </header>
 
-<div class="main">
+<section class="hero">
+    <h1>Bax AI – The Future of Community Driven Crypto</h1>
+    <p>
+        Bax AI is a next-generation community driven crypto project built to
+        deliver future rewards for holders and traders.  
+        Our mission is to become the next Shiba Inu killer by creating real
+        utility, strong community support and multiple future projects
+        under the Bax AI ecosystem.
+    </p>
 
-    <!-- HERO -->
-    <div class="hero">
-        <h1>Bax AI – Launch like pump.fun</h1>
+    <a href="#" class="btn">Join Bax AI Community</a>
+</section>
+
+<section class="features">
+
+    <div class="card">
+        <h3>Future Rewards</h3>
         <p>
-            Community driven token with future rewards, trader rewards
-            and multiple future projects.
-            Shiba-style meme + AI ecosystem vision.
+            Bax AI holders and traders will receive future rewards
+            through ecosystem growth and upcoming utilities.
         </p>
     </div>
 
-    <!-- CREATE TOKEN BOX -->
-    <div class="create-box">
-        <h3>Create your token</h3>
-
-        <label>Token name</label>
-        <input type="text" placeholder="Bax AI">
-
-        <label>Symbol</label>
-        <input type="text" placeholder="BAX">
-
-        <label>Description</label>
-        <input type="text" placeholder="Future rewards & community driven project">
-
-        <label>Image URL</label>
-        <input type="text" placeholder="https://...">
-
-        <br><br>
-        <button>Create Token</button>
-    </div>
-
-    <!-- LIVE BOARD -->
-    <div class="board">
-        <h3>Live tokens</h3>
-
-        <table class="table">
-            <tr>
-                <th>Token</th>
-                <th>Price</th>
-                <th>Liquidity</th>
-                <th>Status</th>
-            </tr>
-
-            <tr>
-                <td>Bax AI <span class="badge">new</span></td>
-                <td>0.000012</td>
-                <td>$12,430</td>
-                <td>Bonding</td>
-            </tr>
-
-            <tr>
-                <td>DogX AI</td>
-                <td>0.000004</td>
-                <td>$8,210</td>
-                <td>Live</td>
-            </tr>
-
-            <tr>
-                <td>MoonFox</td>
-                <td>0.000031</td>
-                <td>$21,100</td>
-                <td>Live</td>
-            </tr>
-        </table>
-    </div>
-
-    <!-- BUY / SELL BOX -->
-    <div class="buybox">
-        <h3>Buy / Sell (demo)</h3>
-
-        <label>Amount (SOL)</label>
-        <input type="number" placeholder="0.1">
-
-        <br><br>
-        <button>Buy</button>
-        <button style="background:#ff5c5c;color:white;">Sell</button>
-
-        <p style="margin-top:10px;color:#aaa;font-size:13px;">
-            * This is only frontend UI. No real trade connected.
+    <div class="card">
+        <h3>Shiba Inu Killer Vision</h3>
+        <p>
+            Bax AI is built with a long-term vision to become a strong
+            competitor in the meme and AI token space.
         </p>
     </div>
 
-</div>
+    <div class="card">
+        <h3>Trader Rewards</h3>
+        <p>
+            Active traders and community supporters will be rewarded
+            through future trading and participation programs.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Community Driven</h3>
+        <p>
+            Bax AI is fully community focused. Every major decision
+            will be driven by community feedback and voting.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Multiple Future Projects</h3>
+        <p>
+            Bax AI ecosystem will launch multiple future projects
+            including AI tools, utilities and partner platforms.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Bax AI – Community Driven Future Rewards Project
+</footer>
 
 </body>
 </html>
