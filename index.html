@@ -3,118 +3,208 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BAX AI</title>
+<title>AURA Coin</title>
 
 <style>
-body{
-font-family: Arial, sans-serif;
-margin:0;
-background:#0a0a0f;
-color:white;
-text-align:center;
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #FFD83D;
 }
 
-header{
-padding:40px;
-background:linear-gradient(90deg,#1a1a2e,#0f3460);
+/* Navbar */
+
+.navbar {
+    background: #1F2A44;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-h1{
-font-size:42px;
-margin-bottom:10px;
+.logo {
+    font-size: 22px;
+    font-weight: bold;
 }
 
-.tagline{
-color:#9ae6ff;
-font-size:18px;
+.logo span {
+    margin-right: 8px;
 }
 
-section{
-padding:60px 20px;
-max-width:900px;
-margin:auto;
+/* Hero Section */
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
 }
 
-.card{
-background:#151520;
-padding:30px;
-border-radius:15px;
-margin:20px 0;
-box-shadow:0 0 20px rgba(0,0,0,0.5);
+.hero img {
+    width: 120px;
 }
 
-button{
-background:#00eaff;
-border:none;
-padding:15px 30px;
-font-size:18px;
-border-radius:10px;
-cursor:pointer;
+.hero h1 {
+    font-size: 40px;
+    color: #1F2A44;
+    margin-top: 20px;
 }
 
-button:hover{
-background:#00bcd4;
+.hero p {
+    font-size: 18px;
+    color: #333;
 }
 
-footer{
-padding:30px;
-background:#111;
-font-size:14px;
-color:#aaa;
+/* Buttons */
+
+.button {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
 }
+
+.buy1 {
+    background: #1F2A44;
+    color: white;
+}
+
+.buy2 {
+    background: #2E3A5E;
+    color: white;
+}
+
+/* Feature Cards */
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.card {
+    background: #FFF3B0;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+/* Meme Section */
+
+.memes {
+    text-align: center;
+    padding: 30px;
+}
+
+.memes h2 {
+    font-size: 30px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
 </style>
 </head>
 
 <body>
 
-<header>
-<h1>BAX AI 🐺</h1>
-<p class="tagline">The Alpha Wolf of AI Crypto</p>
-<button>Buy BAX AI</button>
-</header>
+<!-- Navbar -->
 
-<section>
-
-<div class="card">
-<h2>About BAX AI</h2>
-<p>
-BAX AI is a community driven meme coin powered by artificial intelligence.
-The Alpha Wolf leads the future of AI and crypto innovation.
-</p>
+<div class="navbar">
+    <div class="logo">
+        😄 AURA Coin
+    </div>
+    <div>
+        ☰
+    </div>
 </div>
 
-<div class="card">
-<h2>Future Rewards</h2>
-<p>
-Early supporters of BAX AI may receive up to
-<strong>1,000,000 tokens</strong> from future project launches.
-Our loyal community will always be rewarded.
-</p>
+<!-- Hero Section -->
+
+<div class="hero">
+
+    <img src="https://cdn-icons-png.flaticon.com/512/742/742751.png">
+
+    <h1>The Most Viral Meme Ever Tokenized 😂</h1>
+
+    <p>
+        AURA — The internet's favorite vibe,
+        now mooning on blockchain 🚀
+    </p>
+
+    <a href="#" class="button buy1">
+        Buy AURA
+    </a>
+
+    <a href="#" class="button buy2">
+        Buy on Exchange
+    </a>
+
 </div>
 
-<div class="card">
-<h2>Roadmap</h2>
-<p>
-Phase 1 – Launch on meme markets<br>
-Phase 2 – Build strong community<br>
-Phase 3 – Launch new AI projects<br>
-Phase 4 – Expand the BAX AI ecosystem
-</p>
+<!-- Features -->
+
+<div class="features">
+
+    <div class="card">
+        ⚡
+        <h3>Fast Network</h3>
+        <p>Ultra fast transactions.</p>
+    </div>
+
+    <div class="card">
+        😂
+        <h3>Pure Meme</h3>
+        <p>No fake promises. Just vibes.</p>
+    </div>
+
+    <div class="card">
+        🤝
+        <h3>Community</h3>
+        <p>Strong holders community.</p>
+    </div>
+
+    <div class="card">
+        🔥
+        <h3>LP Burned</h3>
+        <p>Liquidity locked forever.</p>
+    </div>
+
 </div>
 
-<div class="card">
-<h2>Join the Pack</h2>
-<p>
-Become part of the Alpha Wolf community and help BAX AI grow into the
-next big AI meme movement.
-</p>
+<!-- Meme Section -->
+
+<div class="memes">
+
+    <h2>Funny AURA Memes 😂</h2>
+
+    <p>
+        The internet runs on AURA vibes.
+    </p>
+
 </div>
 
-</section>
+<!-- Footer -->
 
-<footer>
-© 2026 BAX AI Community
-</footer>
+<div class="footer">
+
+© 2026 AURA Coin — All Rights Reserved
+
+</div>
 
 </body>
 </html>
